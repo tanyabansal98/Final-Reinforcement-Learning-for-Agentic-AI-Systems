@@ -1,0 +1,1352 @@
+[
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases"
+    ],
+    "total_reward": 5.983192323891207,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "tech_news"
+    ],
+    "total_reward": 3.9347563002665997,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "analyst_reports"
+    ],
+    "total_reward": 4.520946403735811,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters"
+    ],
+    "total_reward": 4.138159935474539,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "crunchbase",
+      "tech_news"
+    ],
+    "total_reward": 3.1618589704477222,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases"
+    ],
+    "total_reward": 6.038398364024584,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.524597362852511,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "arxiv"
+    ],
+    "total_reward": 5.020684185249889,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news"
+    ],
+    "total_reward": 3.4371280147822487,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "ai_newsletters",
+      "patent_databases",
+      "semantic_scholar",
+      "social_media"
+    ],
+    "total_reward": 4.594697074747288,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases"
+    ],
+    "total_reward": 5.840683839756356,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.4236115729863625,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "analyst_reports",
+      "patent_databases",
+      "semantic_scholar",
+      "arxiv"
+    ],
+    "total_reward": 6.220973398366949,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters"
+    ],
+    "total_reward": 4.540643248634708,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "patent_databases"
+    ],
+    "total_reward": 4.9140750010244965,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.871528638403571,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "tech_news"
+    ],
+    "total_reward": 4.331363342147348,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "analyst_reports"
+    ],
+    "total_reward": 4.766222786243048,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters",
+      "conference_proceedings",
+      "patent_databases",
+      "social_media"
+    ],
+    "total_reward": 4.426976120562468,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "crunchbase",
+      "sec_edgar"
+    ],
+    "total_reward": 3.9113182353499596,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "semantic_scholar",
+      "arxiv",
+      "github_feeds"
+    ],
+    "total_reward": 4.005183425635687,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters",
+      "social_media",
+      "conference_proceedings",
+      "patent_databases"
+    ],
+    "total_reward": 3.7138752552769025,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "ai_newsletters",
+      "social_media",
+      "crunchbase"
+    ],
+    "total_reward": 5.185628439720302,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters",
+      "patent_databases",
+      "social_media",
+      "arxiv"
+    ],
+    "total_reward": 4.72929866561438,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.258691695315474,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases"
+    ],
+    "total_reward": 4.84967189199876,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "tech_news"
+    ],
+    "total_reward": 3.1518881840551867,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media"
+    ],
+    "total_reward": 3.4440828396357817,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters",
+      "patent_databases",
+      "crunchbase",
+      "github_feeds"
+    ],
+    "total_reward": 5.149318726193249,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "patent_databases"
+    ],
+    "total_reward": 6.049891898190766,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "semantic_scholar",
+      "arxiv",
+      "github_feeds"
+    ],
+    "total_reward": 3.8820619991829144,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.294435932372514,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "ai_newsletters",
+      "social_media",
+      "patent_databases"
+    ],
+    "total_reward": 5.1770983677345885,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "ai_newsletters",
+      "analyst_reports"
+    ],
+    "total_reward": 3.4082645333205246,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "crunchbase",
+      "tech_news"
+    ],
+    "total_reward": 4.255238806777639,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases",
+      "ai_newsletters",
+      "social_media",
+      "analyst_reports"
+    ],
+    "total_reward": 6.031036984815191,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "crunchbase",
+      "sec_edgar",
+      "tech_news"
+    ],
+    "total_reward": 4.456851701389098,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "ai_newsletters"
+    ],
+    "total_reward": 4.083909143875683,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters",
+      "patent_databases",
+      "semantic_scholar",
+      "social_media"
+    ],
+    "total_reward": 5.1850919709598005,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.493522339765699,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "semantic_scholar",
+      "arxiv",
+      "conference_proceedings",
+      "github_feeds",
+      "patent_databases",
+      "ai_newsletters",
+      "crunchbase",
+      "social_media"
+    ],
+    "total_reward": 6.563534304419775,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters",
+      "semantic_scholar",
+      "social_media",
+      "patent_databases"
+    ],
+    "total_reward": 6.829939139330867,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "analyst_reports",
+      "sec_edgar",
+      "patent_databases",
+      "arxiv"
+    ],
+    "total_reward": 6.1656598766105,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "ai_newsletters",
+      "analyst_reports"
+    ],
+    "total_reward": 3.3151071225286097,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "crunchbase",
+      "tech_news"
+    ],
+    "total_reward": 3.917511943255826,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "semantic_scholar",
+      "arxiv",
+      "conference_proceedings",
+      "github_feeds",
+      "patent_databases",
+      "ai_newsletters",
+      "social_media",
+      "tech_news"
+    ],
+    "total_reward": 6.059189355330806,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.370016031739514,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "conference_proceedings"
+    ],
+    "total_reward": 3.5036480325369563,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news"
+    ],
+    "total_reward": 2.298511662747581,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.704660735329362,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases"
+    ],
+    "total_reward": 4.899032475462403,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.469354170100921,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "analyst_reports",
+      "patent_databases",
+      "crunchbase",
+      "arxiv"
+    ],
+    "total_reward": 5.880928883925758,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters",
+      "patent_databases",
+      "social_media",
+      "arxiv"
+    ],
+    "total_reward": 4.709734428872645,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "ai_newsletters",
+      "patent_databases",
+      "arxiv",
+      "social_media"
+    ],
+    "total_reward": 5.768112849123774,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases"
+    ],
+    "total_reward": 6.336152337281544,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.1202285739998175,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "analyst_reports"
+    ],
+    "total_reward": 4.312918903149853,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "ai_newsletters",
+      "sec_edgar"
+    ],
+    "total_reward": 2.6209951304063406,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 4.5618754897790375,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases",
+      "ai_newsletters",
+      "tech_news",
+      "analyst_reports"
+    ],
+    "total_reward": 7.0074311635297555,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters",
+      "social_media",
+      "government_policy",
+      "patent_databases"
+    ],
+    "total_reward": 5.922253634826425,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "analyst_reports"
+    ],
+    "total_reward": 5.345745387909833,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "ai_newsletters",
+      "analyst_reports"
+    ],
+    "total_reward": 4.881565343894324,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.9032323306550465,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases"
+    ],
+    "total_reward": 4.992167355507025,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters",
+      "social_media",
+      "government_policy",
+      "patent_databases"
+    ],
+    "total_reward": 6.387643047857047,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "analyst_reports"
+    ],
+    "total_reward": 5.5691083946360305,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters",
+      "patent_databases",
+      "crunchbase",
+      "social_media"
+    ],
+    "total_reward": 5.090012476045331,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "patent_databases",
+      "ai_newsletters",
+      "government_policy",
+      "social_media"
+    ],
+    "total_reward": 6.102098768084069,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases"
+    ],
+    "total_reward": 4.099385813030048,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 4.116377259827843,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "analyst_reports"
+    ],
+    "total_reward": 5.031253897233935,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "ai_newsletters",
+      "tech_news"
+    ],
+    "total_reward": 3.2735651967268655,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.667913537141263,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "semantic_scholar",
+      "arxiv",
+      "github_feeds"
+    ],
+    "total_reward": 4.338313439229605,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.603678271669721,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "arxiv"
+    ],
+    "total_reward": 4.701038893329789,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters",
+      "patent_databases",
+      "semantic_scholar",
+      "crunchbase"
+    ],
+    "total_reward": 4.67487130640311,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "crunchbase",
+      "tech_news"
+    ],
+    "total_reward": 3.80370500935374,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases"
+    ],
+    "total_reward": 5.898620634742926,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters",
+      "social_media",
+      "semantic_scholar",
+      "patent_databases"
+    ],
+    "total_reward": 6.001588222649484,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "ai_newsletters"
+    ],
+    "total_reward": 4.046504345693049,
+    "max_relevance": 0,
+    "budget_used": 3
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters",
+      "patent_databases",
+      "conference_proceedings",
+      "social_media"
+    ],
+    "total_reward": 4.71636748856659,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "ai_newsletters",
+      "patent_databases",
+      "github_feeds",
+      "social_media"
+    ],
+    "total_reward": 5.426884306976845,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "conference_proceedings",
+      "arxiv",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases"
+    ],
+    "total_reward": 4.797862110644926,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.288625346439285,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "analyst_reports",
+      "patent_databases",
+      "arxiv",
+      "crunchbase"
+    ],
+    "total_reward": 6.4218345203716956,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters",
+      "patent_databases",
+      "arxiv",
+      "crunchbase"
+    ],
+    "total_reward": 4.926520291299907,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "ai_newsletters",
+      "patent_databases",
+      "government_policy",
+      "social_media"
+    ],
+    "total_reward": 6.234405177143618,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "arxiv",
+      "conference_proceedings",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases"
+    ],
+    "total_reward": 5.7500965745211285,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.743423689698972,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "crunchbase"
+    ],
+    "total_reward": 5.342900665798662,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "analyst_reports",
+      "ai_newsletters",
+      "patent_databases",
+      "social_media",
+      "crunchbase"
+    ],
+    "total_reward": 5.502472428044196,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "sec_edgar",
+      "crunchbase",
+      "tech_news",
+      "ai_newsletters",
+      "patent_databases",
+      "government_policy",
+      "github_feeds"
+    ],
+    "total_reward": 6.1661057788644635,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "technical",
+    "sources_queried": [
+      "arxiv",
+      "conference_proceedings",
+      "semantic_scholar",
+      "github_feeds",
+      "patent_databases",
+      "ai_newsletters",
+      "government_policy",
+      "social_media"
+    ],
+    "total_reward": 5.2970303287334435,
+    "max_relevance": 0,
+    "budget_used": 8
+  },
+  {
+    "query_type": "business",
+    "sources_queried": [
+      "sec_edgar",
+      "crunchbase",
+      "analyst_reports",
+      "tech_news",
+      "ai_newsletters"
+    ],
+    "total_reward": 5.319685597772844,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "product",
+    "sources_queried": [
+      "tech_news",
+      "github_feeds",
+      "social_media",
+      "ai_newsletters",
+      "crunchbase"
+    ],
+    "total_reward": 5.03994637003848,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "regulatory",
+    "sources_queried": [
+      "government_policy",
+      "sec_edgar",
+      "tech_news",
+      "ai_newsletters",
+      "analyst_reports"
+    ],
+    "total_reward": 4.506110339478786,
+    "max_relevance": 0,
+    "budget_used": 5
+  },
+  {
+    "query_type": "market",
+    "sources_queried": [
+      "analyst_reports",
+      "crunchbase",
+      "tech_news"
+    ],
+    "total_reward": 4.412576393864167,
+    "max_relevance": 0,
+    "budget_used": 3
+  }
+]

@@ -1,0 +1,150 @@
+{
+  "framework": "Humanitarians.AI Madison Framework Simulation",
+  "version": "1.0.0",
+  "sources": [
+    {
+      "name": "arxiv",
+      "category": "research",
+      "mean_latency": 2.0,
+      "relevance_profiles": {
+        "technical": 0.92,
+        "business": 0.05,
+        "product": 0.30,
+        "regulatory": 0.08,
+        "market": 0.10
+      }
+    },
+    {
+      "name": "semantic_scholar",
+      "category": "research",
+      "mean_latency": 1.5,
+      "relevance_profiles": {
+        "technical": 0.85,
+        "business": 0.04,
+        "product": 0.25,
+        "regulatory": 0.06,
+        "market": 0.08
+      }
+    },
+    {
+      "name": "sec_edgar",
+      "category": "financial",
+      "mean_latency": 3.0,
+      "relevance_profiles": {
+        "technical": 0.03,
+        "business": 0.95,
+        "product": 0.10,
+        "regulatory": 0.60,
+        "market": 0.80
+      }
+    },
+    {
+      "name": "conference_proceedings",
+      "category": "research",
+      "mean_latency": 4.0,
+      "relevance_profiles": {
+        "technical": 0.90,
+        "business": 0.03,
+        "product": 0.20,
+        "regulatory": 0.04,
+        "market": 0.07
+      }
+    },
+    {
+      "name": "tech_news",
+      "category": "media",
+      "mean_latency": 0.5,
+      "relevance_profiles": {
+        "technical": 0.45,
+        "business": 0.75,
+        "product": 0.88,
+        "regulatory": 0.50,
+        "market": 0.70
+      }
+    },
+    {
+      "name": "github_feeds",
+      "category": "code",
+      "mean_latency": 0.8,
+      "relevance_profiles": {
+        "technical": 0.78,
+        "business": 0.10,
+        "product": 0.82,
+        "regulatory": 0.02,
+        "market": 0.20
+      }
+    },
+    {
+      "name": "crunchbase",
+      "category": "investment",
+      "mean_latency": 1.2,
+      "relevance_profiles": {
+        "technical": 0.04,
+        "business": 0.85,
+        "product": 0.30,
+        "regulatory": 0.15,
+        "market": 0.75
+      }
+    },
+    {
+      "name": "social_media",
+      "category": "social",
+      "mean_latency": 0.1,
+      "relevance_profiles": {
+        "technical": 0.25,
+        "business": 0.40,
+        "product": 0.70,
+        "regulatory": 0.15,
+        "market": 0.35
+      }
+    },
+    {
+      "name": "ai_newsletters",
+      "category": "commentary",
+      "mean_latency": 1.0,
+      "relevance_profiles": {
+        "technical": 0.55,
+        "business": 0.45,
+        "product": 0.65,
+        "regulatory": 0.35,
+        "market": 0.55
+      }
+    },
+    {
+      "name": "government_policy",
+      "category": "regulatory",
+      "mean_latency": 5.0,
+      "relevance_profiles": {
+        "technical": 0.05,
+        "business": 0.20,
+        "product": 0.08,
+        "regulatory": 0.96,
+        "market": 0.30
+      }
+    },
+    {
+      "name": "patent_databases",
+      "category": "ip",
+      "mean_latency": 3.5,
+      "relevance_profiles": {
+        "technical": 0.70,
+        "business": 0.25,
+        "product": 0.40,
+        "regulatory": 0.30,
+        "market": 0.45
+      }
+    },
+    {
+      "name": "analyst_reports",
+      "category": "financial",
+      "mean_latency": 2.5,
+      "relevance_profiles": {
+        "technical": 0.40,
+        "business": 0.80,
+        "product": 0.50,
+        "regulatory": 0.45,
+        "market": 0.88
+      }
+    }
+  ]
+}
