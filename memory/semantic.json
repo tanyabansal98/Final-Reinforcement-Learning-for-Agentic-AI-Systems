@@ -1,386 +1,386 @@
 {
   "arxiv": {
     "technical": {
-      "observations": 1382,
-      "total_relevance": 1191.8216721193785,
-      "availability_count": 1299,
-      "total_count": 1382
+      "observations": 2657,
+      "total_relevance": 2292.0556740887937,
+      "availability_count": 2498,
+      "total_count": 2657
     },
     "business": {
-      "observations": 102,
-      "total_relevance": 4.581398518549791,
-      "availability_count": 96,
-      "total_count": 102
+      "observations": 191,
+      "total_relevance": 8.559384370521514,
+      "availability_count": 180,
+      "total_count": 191
     },
     "product": {
-      "observations": 276,
-      "total_relevance": 82.16004911210689,
-      "availability_count": 258,
-      "total_count": 276
+      "observations": 526,
+      "total_relevance": 155.4235773537275,
+      "availability_count": 491,
+      "total_count": 526
     },
     "market": {
-      "observations": 74,
-      "total_relevance": 7.4357801733711675,
-      "availability_count": 72,
-      "total_count": 74
+      "observations": 137,
+      "total_relevance": 13.528492715655299,
+      "availability_count": 133,
+      "total_count": 137
     },
     "regulatory": {
-      "observations": 157,
-      "total_relevance": 12.982370714521892,
-      "availability_count": 149,
-      "total_count": 157
+      "observations": 297,
+      "total_relevance": 24.491985972139247,
+      "availability_count": 283,
+      "total_count": 297
     }
   },
   "semantic_scholar": {
     "technical": {
-      "observations": 1377,
-      "total_relevance": 1109.7041281644108,
-      "availability_count": 1298,
-      "total_count": 1377
+      "observations": 2649,
+      "total_relevance": 2137.5630757998756,
+      "availability_count": 2500,
+      "total_count": 2649
     },
     "business": {
-      "observations": 99,
-      "total_relevance": 4.805062549276954,
-      "availability_count": 97,
-      "total_count": 99
+      "observations": 185,
+      "total_relevance": 8.77371526105324,
+      "availability_count": 181,
+      "total_count": 185
     },
     "product": {
-      "observations": 150,
-      "total_relevance": 32.85449914973807,
-      "availability_count": 141,
-      "total_count": 150
+      "observations": 290,
+      "total_relevance": 63.86099610940403,
+      "availability_count": 273,
+      "total_count": 290
     },
     "market": {
-      "observations": 63,
-      "total_relevance": 4.427716058879492,
-      "availability_count": 62,
-      "total_count": 63
+      "observations": 118,
+      "total_relevance": 8.425451454034667,
+      "availability_count": 116,
+      "total_count": 118
     },
     "regulatory": {
-      "observations": 130,
-      "total_relevance": 7.672803203828063,
-      "availability_count": 124,
-      "total_count": 130
+      "observations": 247,
+      "total_relevance": 14.566491303639056,
+      "availability_count": 236,
+      "total_count": 247
     }
   },
   "sec_edgar": {
     "technical": {
-      "observations": 47,
-      "total_relevance": 1.373400468343744,
-      "availability_count": 45,
-      "total_count": 47
+      "observations": 86,
+      "total_relevance": 2.5076295641567783,
+      "availability_count": 82,
+      "total_count": 86
     },
     "business": {
-      "observations": 1358,
-      "total_relevance": 1211.2214704994908,
-      "availability_count": 1279,
-      "total_count": 1358
+      "observations": 2611,
+      "total_relevance": 2329.062565245146,
+      "availability_count": 2459,
+      "total_count": 2611
     },
     "product": {
-      "observations": 78,
-      "total_relevance": 8.567123531962155,
-      "availability_count": 71,
-      "total_count": 78
+      "observations": 145,
+      "total_relevance": 15.779584190296482,
+      "availability_count": 131,
+      "total_count": 145
     },
     "regulatory": {
-      "observations": 1317,
-      "total_relevance": 739.1906130980439,
-      "availability_count": 1234,
-      "total_count": 1317
+      "observations": 2533,
+      "total_relevance": 1422.4967478763883,
+      "availability_count": 2376,
+      "total_count": 2533
     },
     "market": {
-      "observations": 1248,
-      "total_relevance": 938.7130564711193,
-      "availability_count": 1174,
-      "total_count": 1248
+      "observations": 2409,
+      "total_relevance": 1815.7990500703029,
+      "availability_count": 2270,
+      "total_count": 2409
     }
   },
   "conference_proceedings": {
     "technical": {
-      "observations": 1290,
-      "total_relevance": 1073.7202704157696,
-      "availability_count": 1194,
-      "total_count": 1290
+      "observations": 2485,
+      "total_relevance": 2073.668352116754,
+      "availability_count": 2306,
+      "total_count": 2485
     },
     "business": {
-      "observations": 99,
-      "total_relevance": 3.081469080264568,
-      "availability_count": 98,
-      "total_count": 99
+      "observations": 187,
+      "total_relevance": 5.860587903404536,
+      "availability_count": 185,
+      "total_count": 187
     },
     "product": {
-      "observations": 116,
-      "total_relevance": 21.690873563793975,
-      "availability_count": 114,
-      "total_count": 116
+      "observations": 221,
+      "total_relevance": 41.36102942682065,
+      "availability_count": 217,
+      "total_count": 221
     },
     "regulatory": {
-      "observations": 113,
-      "total_relevance": 4.145026803552858,
-      "availability_count": 107,
-      "total_count": 113
+      "observations": 214,
+      "total_relevance": 7.837462964948006,
+      "availability_count": 203,
+      "total_count": 214
     },
     "market": {
-      "observations": 64,
-      "total_relevance": 4.0690862442014595,
-      "availability_count": 64,
-      "total_count": 64
+      "observations": 120,
+      "total_relevance": 7.750202050466141,
+      "availability_count": 120,
+      "total_count": 120
     }
   },
   "tech_news": {
     "technical": {
-      "observations": 410,
-      "total_relevance": 171.68357487996383,
-      "availability_count": 389,
-      "total_count": 410
+      "observations": 791,
+      "total_relevance": 332.4347093626127,
+      "availability_count": 751,
+      "total_count": 791
     },
     "regulatory": {
-      "observations": 1340,
-      "total_relevance": 649.5002627023553,
-      "availability_count": 1287,
-      "total_count": 1340
+      "observations": 2580,
+      "total_relevance": 1251.185517847123,
+      "availability_count": 2478,
+      "total_count": 2580
     },
     "market": {
-      "observations": 1223,
-      "total_relevance": 808.2780764444457,
-      "availability_count": 1156,
-      "total_count": 1223
+      "observations": 2342,
+      "total_relevance": 1547.949542253193,
+      "availability_count": 2215,
+      "total_count": 2342
     },
     "business": {
-      "observations": 1225,
-      "total_relevance": 873.8161449672573,
-      "availability_count": 1157,
-      "total_count": 1225
+      "observations": 2352,
+      "total_relevance": 1678.8196498411485,
+      "availability_count": 2222,
+      "total_count": 2352
     },
     "product": {
-      "observations": 1387,
-      "total_relevance": 1152.6680012714685,
-      "availability_count": 1315,
-      "total_count": 1387
+      "observations": 2670,
+      "total_relevance": 2215.7286883269026,
+      "availability_count": 2528,
+      "total_count": 2670
     }
   },
   "github_feeds": {
     "product": {
-      "observations": 1361,
-      "total_relevance": 1052.4799068055304,
-      "availability_count": 1286,
-      "total_count": 1361
+      "observations": 2623,
+      "total_relevance": 2030.3861717363557,
+      "availability_count": 2481,
+      "total_count": 2623
     },
     "regulatory": {
-      "observations": 114,
-      "total_relevance": 2.3920057261515066,
-      "availability_count": 109,
-      "total_count": 114
+      "observations": 215,
+      "total_relevance": 4.4772840330849535,
+      "availability_count": 206,
+      "total_count": 215
     },
     "market": {
-      "observations": 155,
-      "total_relevance": 33.379691798072045,
-      "availability_count": 154,
-      "total_count": 155
+      "observations": 293,
+      "total_relevance": 62.91132871659227,
+      "availability_count": 291,
+      "total_count": 293
     },
     "technical": {
-      "observations": 1256,
-      "total_relevance": 923.4021546147669,
-      "availability_count": 1191,
-      "total_count": 1256
+      "observations": 2408,
+      "total_relevance": 1771.8146816625695,
+      "availability_count": 2285,
+      "total_count": 2408
     },
     "business": {
-      "observations": 131,
-      "total_relevance": 12.123839624182034,
-      "availability_count": 120,
-      "total_count": 131
+      "observations": 251,
+      "total_relevance": 23.51831417977358,
+      "availability_count": 230,
+      "total_count": 251
     }
   },
   "crunchbase": {
     "product": {
-      "observations": 343,
-      "total_relevance": 102.56923891355554,
-      "availability_count": 335,
-      "total_count": 343
+      "observations": 656,
+      "total_relevance": 195.83981518917585,
+      "availability_count": 640,
+      "total_count": 656
     },
     "regulatory": {
-      "observations": 251,
-      "total_relevance": 33.24093072199127,
-      "availability_count": 242,
-      "total_count": 251
+      "observations": 479,
+      "total_relevance": 63.70720300109586,
+      "availability_count": 461,
+      "total_count": 479
     },
     "technical": {
-      "observations": 49,
-      "total_relevance": 1.6325838797904515,
-      "availability_count": 48,
-      "total_count": 49
+      "observations": 90,
+      "total_relevance": 2.9621377508580364,
+      "availability_count": 88,
+      "total_count": 90
     },
     "market": {
-      "observations": 1376,
-      "total_relevance": 981.889469411577,
-      "availability_count": 1305,
-      "total_count": 1376
+      "observations": 2651,
+      "total_relevance": 1891.851078157123,
+      "availability_count": 2516,
+      "total_count": 2651
     },
     "business": {
-      "observations": 1385,
-      "total_relevance": 1129.5073926256607,
-      "availability_count": 1327,
-      "total_count": 1385
+      "observations": 2664,
+      "total_relevance": 2171.9548537054566,
+      "availability_count": 2552,
+      "total_count": 2664
     }
   },
   "social_media": {
     "market": {
-      "observations": 316,
-      "total_relevance": 102.92741536159706,
-      "availability_count": 301,
-      "total_count": 316
+      "observations": 604,
+      "total_relevance": 197.19960581195468,
+      "availability_count": 575,
+      "total_count": 604
     },
     "technical": {
-      "observations": 111,
-      "total_relevance": 26.305467009700326,
-      "availability_count": 107,
-      "total_count": 111
+      "observations": 205,
+      "total_relevance": 48.25809967681367,
+      "availability_count": 197,
+      "total_count": 205
     },
     "business": {
-      "observations": 537,
-      "total_relevance": 199.22460108004483,
-      "availability_count": 514,
-      "total_count": 537
+      "observations": 1042,
+      "total_relevance": 387.62770608639164,
+      "availability_count": 997,
+      "total_count": 1042
     },
     "product": {
-      "observations": 1308,
-      "total_relevance": 880.2694111613571,
-      "availability_count": 1257,
-      "total_count": 1308
+      "observations": 2516,
+      "total_relevance": 1691.4495715250637,
+      "availability_count": 2416,
+      "total_count": 2516
     },
     "regulatory": {
-      "observations": 303,
-      "total_relevance": 47.68275962200045,
-      "availability_count": 287,
-      "total_count": 303
+      "observations": 580,
+      "total_relevance": 91.005689847689,
+      "availability_count": 550,
+      "total_count": 580
     }
   },
   "ai_newsletters": {
     "technical": {
-      "observations": 549,
-      "total_relevance": 284.4331461299922,
-      "availability_count": 521,
-      "total_count": 549
+      "observations": 1040,
+      "total_relevance": 537.8285882169058,
+      "availability_count": 986,
+      "total_count": 1040
     },
     "business": {
-      "observations": 949,
-      "total_relevance": 401.9771871296238,
-      "availability_count": 903,
-      "total_count": 949
+      "observations": 1820,
+      "total_relevance": 769.6740739560784,
+      "availability_count": 1730,
+      "total_count": 1820
     },
     "product": {
-      "observations": 1202,
-      "total_relevance": 743.6078187772664,
-      "availability_count": 1152,
-      "total_count": 1202
+      "observations": 2309,
+      "total_relevance": 1426.1881565532522,
+      "availability_count": 2211,
+      "total_count": 2309
     },
     "regulatory": {
-      "observations": 995,
-      "total_relevance": 338.5369766699179,
-      "availability_count": 946,
-      "total_count": 995
+      "observations": 1912,
+      "total_relevance": 649.3140466442957,
+      "availability_count": 1815,
+      "total_count": 1912
     },
     "market": {
-      "observations": 1043,
-      "total_relevance": 546.3087196261587,
-      "availability_count": 991,
-      "total_count": 1043
+      "observations": 2006,
+      "total_relevance": 1050.8939829524159,
+      "availability_count": 1907,
+      "total_count": 2006
     }
   },
   "government_policy": {
     "technical": {
-      "observations": 49,
-      "total_relevance": 2.6019811748581043,
-      "availability_count": 48,
-      "total_count": 49
+      "observations": 90,
+      "total_relevance": 4.841044114333273,
+      "availability_count": 88,
+      "total_count": 90
     },
     "regulatory": {
-      "observations": 1397,
-      "total_relevance": 1277.3129443323198,
-      "availability_count": 1332,
-      "total_count": 1397
+      "observations": 2687,
+      "total_relevance": 2456.7345135760224,
+      "availability_count": 2562,
+      "total_count": 2687
     },
     "market": {
-      "observations": 253,
-      "total_relevance": 74.59084003794642,
-      "availability_count": 244,
-      "total_count": 253
+      "observations": 482,
+      "total_relevance": 142.08099920007498,
+      "availability_count": 464,
+      "total_count": 482
     },
     "business": {
-      "observations": 250,
-      "total_relevance": 46.1378688929096,
-      "availability_count": 242,
-      "total_count": 250
+      "observations": 482,
+      "total_relevance": 88.9517979082158,
+      "availability_count": 466,
+      "total_count": 482
     },
     "product": {
-      "observations": 74,
-      "total_relevance": 6.584619127493629,
-      "availability_count": 73,
-      "total_count": 74
+      "observations": 139,
+      "total_relevance": 12.295608516521275,
+      "availability_count": 137,
+      "total_count": 139
     }
   },
   "patent_databases": {
     "business": {
-      "observations": 339,
-      "total_relevance": 77.10603513417152,
-      "availability_count": 321,
-      "total_count": 339
+      "observations": 651,
+      "total_relevance": 147.91190519318818,
+      "availability_count": 616,
+      "total_count": 651
     },
     "product": {
-      "observations": 426,
-      "total_relevance": 162.65657470661833,
-      "availability_count": 411,
-      "total_count": 426
+      "observations": 818,
+      "total_relevance": 312.708373002758,
+      "availability_count": 788,
+      "total_count": 818
     },
     "market": {
-      "observations": 488,
-      "total_relevance": 215.69852652743566,
-      "availability_count": 477,
-      "total_count": 488
+      "observations": 928,
+      "total_relevance": 409.13936209509257,
+      "availability_count": 906,
+      "total_count": 928
     },
     "technical": {
-      "observations": 1031,
-      "total_relevance": 664.0494379521958,
-      "availability_count": 953,
-      "total_count": 1031
+      "observations": 1997,
+      "total_relevance": 1289.3813010478168,
+      "availability_count": 1850,
+      "total_count": 1997
     },
     "regulatory": {
-      "observations": 535,
-      "total_relevance": 149.98982796559693,
-      "availability_count": 498,
-      "total_count": 535
+      "observations": 1029,
+      "total_relevance": 288.51944543048876,
+      "availability_count": 957,
+      "total_count": 1029
     }
   },
   "analyst_reports": {
     "business": {
-      "observations": 1309,
-      "total_relevance": 993.5913881310254,
-      "availability_count": 1247,
-      "total_count": 1309
+      "observations": 2523,
+      "total_relevance": 1915.5237097764048,
+      "availability_count": 2403,
+      "total_count": 2523
     },
     "product": {
-      "observations": 917,
-      "total_relevance": 434.1031147044055,
-      "availability_count": 869,
-      "total_count": 917
+      "observations": 1776,
+      "total_relevance": 840.7314323616041,
+      "availability_count": 1684,
+      "total_count": 1776
     },
     "regulatory": {
-      "observations": 1128,
-      "total_relevance": 474.9158467503921,
-      "availability_count": 1062,
-      "total_count": 1128
+      "observations": 2170,
+      "total_relevance": 915.1904207328251,
+      "availability_count": 2044,
+      "total_count": 2170
     },
     "market": {
-      "observations": 1376,
-      "total_relevance": 1154.2827888138718,
-      "availability_count": 1313,
-      "total_count": 1376
+      "observations": 2643,
+      "total_relevance": 2214.6093540120632,
+      "availability_count": 2519,
+      "total_count": 2643
     },
     "technical": {
-      "observations": 332,
-      "total_relevance": 128.0261175469498,
-      "availability_count": 319,
-      "total_count": 332
+      "observations": 638,
+      "total_relevance": 246.06831482389603,
+      "availability_count": 612,
+      "total_count": 638
     }
   }
 }
