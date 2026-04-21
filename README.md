@@ -13,6 +13,39 @@ The agent learns which information sources (arXiv, tech news, SEC filings, GitHu
 
 The system operates as a **five-layer RL pipeline**, where each method handles a distinct decision level:
 
+```
+┌──────────────────────────────────────────────────────┐
+│              MadisonRLController                     │
+│         (Orchestration & Error Handling)              │
+├──────────────────────────────────────────────────────┤
+│                                                      │
+│  Layer 1: DomainAdapter (Meta-Learning / MAML)       │
+│      → Warm-start source priors for new domains      │
+│                    ↓                                 │
+│  Layer 2: SourceSelector (Contextual Bandits/LinUCB) │
+│      → Pick highest-value source for this context    │
+│                    ↓                                 │
+│  Layer 3: SessionPlanner (Q-Learning + SARSA)        │
+│      → Optimize multi-step query sequence            │
+│                    ↓                                 │
+│  Layer 4: CoordinationAgent (MAPPO)                  │
+│      → 3 parallel agents avoid redundant queries     │
+│                    ↓                                 │
+│  Layer 5: SynthesisAgent (PPO)                       │
+│      → Weight and combine results                    │
+│                                                      │
+├──────────────────────────────────────────────────────┤
+│  Custom Tool: SourceCredibilityScorer                │
+│  Memory: MadisonMemory (Episodic + Semantic)         │
+│  Communication: MadisonMessageBus                    │
+└──────────────────────────────────────────────────────┘
+         ↕                    ↕
+┌────────────────┐  ┌─────────────────────┐
+│  MadisonEnv    │  │  MultiAgentEnv      │
+│  (12 sources)  │  │  (3 parallel agents)│
+└────────────────┘  └─────────────────────┘
+```
+
 | Layer | Method | RL Approach | Decision |
 |-------|--------|-------------|----------|
 | 1 | Meta-Learning (MAML) | Transfer Learning | Warm-start source priors for new topic domains |
@@ -128,3 +161,15 @@ madison_rl/
 - Automated intelligence gathering should complement, not replace, human judgment
 - Exploration strategies must be bounded to prevent excessive querying of real-world APIs
 - Multi-agent coordination must not amplify biases present in individual sources
+
+## References
+
+1. Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.). MIT Press.
+2. Schulman, J., et al. (2017). "Proximal Policy Optimization Algorithms." *arXiv preprint arXiv:1707.06347*.
+3. Finn, C., Abbeel, P., & Levine, S. (2017). "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks." *ICML*.
+4. Li, L., et al. (2010). "A Contextual-Bandit Approach to Personalized News Article Recommendation." *WWW*.
+5. Lowe, R., et al. (2017). "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments." *NIPS*.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
