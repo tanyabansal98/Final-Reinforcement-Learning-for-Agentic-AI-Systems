@@ -59,7 +59,7 @@ def main():
 
     # 1. Train the agent (small run for demo)
     print("\n[1/3] Training RL Agent...")
-    train_results = train(n_episodes=200, verbose=False)
+    train_results = train(n_episodes=50, verbose=False)
     rl_agent = train_results["bandit_agent"]
     env = train_results["env"]
 

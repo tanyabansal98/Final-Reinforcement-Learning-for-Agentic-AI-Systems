@@ -13,6 +13,8 @@ from env.reward_function import (
     RewardTracker, step_reward, session_reward,
     compute_oracle_reward, regret,
 )
+import gymnasium as gym
+from gymnasium.spaces import Discrete, Box
 
 
 class MadisonEnv:
@@ -44,6 +46,12 @@ class MadisonEnv:
         self._domain = domain
         self._session: Optional[SessionState] = None
         self._episode_count = 0
+
+        # Gymnasium standard spaces
+        self.action_space = Discrete(self.n_sources)
+        self.observation_space = Box(
+            low=0.0, high=1.0, shape=(self.context_dim,), dtype=np.float32
+        )
 
     # ------------------------------------------------------------------
     # Core interface

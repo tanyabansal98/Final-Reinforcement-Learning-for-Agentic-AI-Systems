@@ -231,7 +231,8 @@ def train(
 
             while not all(all_done):
                 # Request actions from coordinator
-                current_results = [{"available": True, "relevance": 0.5} for _ in range(n_agents)]
+                # Realistic "cold start" initialization using credibility scorer
+                current_results = [{"available": True, "relevance": scorer.get_credibility(source_names[0])} for _ in range(n_agents)]
                 actions, team_rewards = marl.step(marl_contexts, current_results, [0.0] * n_agents)
 
                 # Take step in real env
@@ -260,8 +261,8 @@ def train(
             meta.update_meta_params()
             held_out = DOMAINS[-1]
             if meta_train_buffer[held_out]:
-                n_support = min(5, len(meta_train_buffer[held_out]))
-                n_eval = min(10, len(meta_train_buffer[held_out]) - n_support)
+                n_support = min(15, len(meta_train_buffer[held_out]))
+                n_eval = min(20, len(meta_train_buffer[held_out]) - n_support)
                 if n_eval > 0:
                     support = meta_train_buffer[held_out][:n_support]
                     eval_ep = meta_train_buffer[held_out][n_support:n_support + n_eval]
@@ -296,6 +297,7 @@ def train(
     results["source_names"] = source_names
     results["query_types"] = QUERY_TYPES
     results["bandit_agent"] = bandit
+    results["ppo_agent"] = ppo
     results["meta_agent"] = meta
     results["env"] = env
     results["credibility_scorer"] = scorer

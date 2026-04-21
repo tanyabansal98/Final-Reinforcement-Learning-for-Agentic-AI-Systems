@@ -190,11 +190,13 @@ class SessionState:
 
     def get_collected_relevances(self) -> np.ndarray:
         """Per-source relevance collected so far (for PPO synthesis agent)."""
-        from env.source_pool import SourcePool
-        scores = np.zeros(12, dtype=np.float32)
+        from env.source_pool import build_source_pool
+        source_names = [s.name for s in build_source_pool()]
+        scores = np.zeros(len(source_names), dtype=np.float32)
         for r in self.results:
-            # find source index by name
-            pass  # filled in madison_env.py with pool reference
+            if r["source"] in source_names:
+                idx = source_names.index(r["source"])
+                scores[idx] = max(scores[idx], r["relevance"])
         return scores
 
     def summary(self) -> Dict:

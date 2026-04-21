@@ -251,23 +251,27 @@ class SourceCredibilityScorer:
         """Pretty-print the trust report."""
         report = self.generate_trust_report()
 
-        print(f"\n{'='*85}")
+        print(f"\n{'='*95}")
         print(f"  SOURCE CREDIBILITY REPORT  ({self._global_query_count} total queries)")
-        print(f"{'='*85}")
-        print(f"{'Source':<24} {'Credibility':>12} {'Accuracy':>10} {'Consistency':>12} "
+        print(f"{'='*95}")
+        print(f"{'Source':<24} {'Queries':>7} {'Credibility':>12} {'Accuracy':>10} {'Consistency':>12} "
               f"{'Timeliness':>11} {'Avail':>7} {'Conflicts':>10}")
-        print(f"{'─'*85}")
+        print(f"{'─'*95}")
 
         # Sort by credibility
         sorted_sources = sorted(report.items(), key=lambda x: x[1]["overall_credibility"], reverse=True)
         for name, metrics in sorted_sources:
+            if metrics["total_queries"] == 0:
+                print(f"{name:<24} {0:>7} {'[NO DATA — PRIORS ONLY]':<65}")
+                continue
+                
             cred = metrics["overall_credibility"]
             trust_bar = "█" * int(cred * 10) + "░" * (10 - int(cred * 10))
-            print(f"{name:<24} {trust_bar} {cred:>.3f}  {metrics['accuracy']:>8.3f}  "
+            print(f"{name:<24} {metrics['total_queries']:>7} {trust_bar} {cred:>.3f}  {metrics['accuracy']:>8.3f}  "
                   f"{metrics['consistency']:>10.3f}  {metrics['timeliness']:>9.3f}  "
                   f"{metrics['availability']:>5.2f}  {metrics['conflict_rate']:>8.3f}")
 
-        print(f"{'='*85}")
+        print(f"{'='*95}")
 
     def plot_credibility_dashboard(self, save_path: str = None):
         """Generate a visual credibility dashboard."""
