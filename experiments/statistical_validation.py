@@ -1,5 +1,5 @@
 """
-analysis/statistical_validation.py
+experiments/statistical_validation.py
 Run training across multiple seeds and compute:
 - Mean ± std learning curves
 - 95% confidence intervals
@@ -7,7 +7,7 @@ Run training across multiple seeds and compute:
 - Effect sizes (Cohen's d)
 
 Run from Madison_r1 root:
-    python analysis/statistical_validation.py
+    python experiments/statistical_validation.py
 """
 
 import numpy as np

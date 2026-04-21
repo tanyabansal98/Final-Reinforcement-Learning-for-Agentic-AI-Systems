@@ -13,38 +13,7 @@ The agent learns which information sources (arXiv, tech news, SEC filings, GitHu
 
 The system operates as a **five-layer RL pipeline**, where each method handles a distinct decision level:
 
-```
-┌──────────────────────────────────────────────────────┐
-│              MadisonRLController                     │
-│         (Orchestration & Error Handling)              │
-├──────────────────────────────────────────────────────┤
-│                                                      │
-│  Layer 1: DomainAdapter (Meta-Learning / MAML)       │
-│      → Warm-start source priors for new domains      │
-│                    ↓                                 │
-│  Layer 2: SourceSelector (Contextual Bandits/LinUCB) │
-│      → Pick highest-value source for this context    │
-│                    ↓                                 │
-│  Layer 3: SessionPlanner (Q-Learning + SARSA)        │
-│      → Optimize multi-step query sequence            │
-│                    ↓                                 │
-│  Layer 4: CoordinationAgent (MAPPO)                  │
-│      → 3 parallel agents avoid redundant queries     │
-│                    ↓                                 │
-│  Layer 5: SynthesisAgent (PPO)                       │
-│      → Weight and combine results                    │
-│                                                      │
-├──────────────────────────────────────────────────────┤
-│  Custom Tool: SourceCredibilityScorer                │
-│  Memory: MadisonMemory (Episodic + Semantic)         │
-│  Communication: MadisonMessageBus                    │
-└──────────────────────────────────────────────────────┘
-         ↕                    ↕
-┌────────────────┐  ┌─────────────────────┐
-│  MadisonEnv    │  │  MultiAgentEnv      │
-│  (12 sources)  │  │  (3 parallel agents)│
-└────────────────┘  └─────────────────────┘
-```
+![System Architecture Diagram](architecture_diagram.svg)
 
 | Layer | Method | RL Approach | Decision |
 |-------|--------|-------------|----------|
@@ -113,7 +82,7 @@ python main.py
 python training/evaluate.py
 
 # Generate all analysis plots
-python analysis/plot_all.py
+python experiments/plot_all.py
 ```
 
 ## Results
@@ -147,7 +116,7 @@ madison_rl/
 ├── training/
 │   ├── train.py              # Main training loop
 │   └── evaluate.py           # Baseline comparisons
-├── analysis/
+├── experiments/
 │   └── plot_all.py           # All visualizations
 ├── plots/                    # Generated analysis plots
 ├── main.py                   # Entry point

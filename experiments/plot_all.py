@@ -1,5 +1,5 @@
 """
-analysis/plot_all.py
+experiments/plot_all.py
 Generates all plots for the Madison RL report:
 1. Learning curves (reward over episodes)
 2. Cumulative regret (UCB vs random vs greedy)
